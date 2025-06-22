@@ -92,7 +92,7 @@ class SimpleAsyncQueue {
 Array.prototype.compact = function() { return this.filter(function(e) { return e; }); };
 
 const hideRedeemed = () => {
-  console.log('Hiding redeemed keys.')
+  console.log('Showing redeemed keys.')
   document.getElementById('hide-redeemed').checked = true
 }
 
